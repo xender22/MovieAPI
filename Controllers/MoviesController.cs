@@ -1,14 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using MovieAPI.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace MovieAPI.Controllers
 {
-   
+
     [ApiController]
     [Route("[Controller]")]
     public class MoviesController : ControllerBase
